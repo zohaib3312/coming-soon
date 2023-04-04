@@ -1,0 +1,78 @@
+
+.container{
+    width:1440px;
+    text-align: center;
+    margin: auto;
+      
+}
+
+
+.main-text{
+    line-height: 20px;
+}
+
+
+
+.main-text p{
+    font-size: 20px;
+    font-family: 'Noto Serif Khojki', serif;
+    
+    
+   
+   
+}
+
+.main-text h1{
+    font-size: 40px;
+    font-weight:300;
+    color: hsl(0, 0%, 59%);
+    font-family: 'Libre Franklin', sans-serif;
+    
+}
+
+.bold{
+    font-weight: 600;
+    color: black;
+}
+
+.form , .main-text, .logo{
+    position: relative;
+    top: 50px;
+}
+
+.main-text  h1,h2{
+    margin-top: 80px;
+}
+
+.form input{
+    margin-top: 30px;
+}
+
+
+.form input{
+    width: 22%;
+    padding: 20px;
+border-radius: 50px 50px 50px 50px;
+border-color: hsl(0, 0%, 59%);
+
+}
+
+.form  button{
+background-color: hsl(223, 87%, 63%);
+padding: 20px;
+outline: none;
+border: none;
+width: 12%;
+border-radius: 50px 50px 50px 50px;
+color: hsl(0, 0%, 59%);
+font-size: 20px;
+}
+
+.form  button a{
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+ 
+
