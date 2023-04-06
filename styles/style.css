@@ -3,6 +3,7 @@
     width:1440px;
     text-align: center;
     margin: auto;
+    
       
 }
 
@@ -50,7 +51,7 @@
 
 
 .form input{
-    width: 22%;
+    width: 26%;
     padding: 20px;
 border-radius: 50px 50px 50px 50px;
 border-color: hsl(0, 0%, 59%);
@@ -59,20 +60,65 @@ border-color: hsl(0, 0%, 59%);
 
 .form  button{
 background-color: hsl(223, 87%, 63%);
-padding: 20px;
+padding: 15px;
 outline: none;
 border: none;
-width: 12%;
+width: 13%;
 border-radius: 50px 50px 50px 50px;
 color: hsl(0, 0%, 59%);
 font-size: 20px;
+margin-left: 10px;
+}
+.form  button:hover{
+    background-color: hsl(223, 100%, 88%);
 }
 
 .form  button a{
     color: #fff;
     text-decoration: none;
+    font-size: 15px;
     
 }
 
- 
+.graphic-img{
+    width: 39%;
+    height: 400px;
+    position: relative;
+    top: 120px;
+    left: 31%;
+    margin-bottom:200px ;
+} 
 
+.graphic-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.social-icons{
+    width: 40%;
+    height: 100px;
+     margin: auto;
+     text-align: center;
+}
+
+.social-icons i{
+    margin: 20px 20px;
+     padding: 10px;
+    border-radius: 50%;
+    color: hsl(223, 87%, 63%) ;
+}
+
+.social-icons i:hover{
+    background-color: hsl(223, 87%, 63%) ;
+    color: #fff;
+}
+
+footer p{
+    text-align: center;
+    position: relative;
+    bottom: 25px;
+   color:hsl(0, 0%, 59%);
+   font-weight: 300;
+   font-size: 15px; 
+
+}
