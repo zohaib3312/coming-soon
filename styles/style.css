@@ -122,3 +122,61 @@ footer p{
    font-size: 15px; 
 
 }
+
+
+/* ---------------Mobile Design------------------ */
+
+@media screen and (max-width:375px) {
+    
+.container{
+    width: 375px;
+     
+}
+
+.main-text h1{
+    font-size: 25px;
+}
+
+.main-text p{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+
+.form input{
+    width: 80%;
+    border-color: rgb(198, 196, 196);
+}
+
+.form button{
+    width: 92%;
+    margin-top: 10px;
+}
+
+.graphic-img {
+    width: 100%;
+    margin-left: -90px;
+    height: 90%;
+}
+
+.graphic-img img{
+    width: 90%;
+    height: 90%;
+    
+}
+ 
+
+.social-icons {
+ 
+        width: 30%;
+        height: 50px;
+          
+   
+}
+
+.social-icons i{
+    padding: 5px;
+    margin: 4px 4px;
+}
+
+}
